@@ -1,0 +1,125 @@
+.contactoPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 70vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.contactInfo {
+    background: linear-gradient(135deg, #1c1d20 0%, #38323f 100%);
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.contactInfo h3 {
+    margin: 0 0 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.infoItem {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.infoItem:hover {
+    transform: translateX(5px);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.icon {
+    font-size: 2rem;
+    min-width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoItem strong {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+
+.infoItem p {
+    margin: 0;
+    opacity: 0.9;
+    font-size: 0.95rem;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 500px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 3px solid #0070f3;
+}
+
+@media (max-width: 968px) {
+    .contactoPage {
+        padding: 1rem;
+    }
+    
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .contactInfo {
+        padding: 1.5rem;
+    }
+    
+    .contactInfo h3 {
+        font-size: 1.5rem;
+    }
+    
+    .mapContainer {
+        height: 400px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contactoPage {
+        padding: 0.5rem;
+    }
+    
+    .contactInfo {
+        padding: 1rem;
+    }
+    
+    .contactInfo h3 {
+        font-size: 1.3rem;
+    }
+    
+    .infoItem {
+        padding: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .icon {
+        font-size: 1.5rem;
+    }
+    
+    .mapContainer {
+        height: 300px;
+    }
+}

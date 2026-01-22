@@ -1,5 +1,6 @@
 import {travels} from "@/app/components/Types/type"
 import Card from "../Card"
+import styles from './Grid.module.css'
 
 type props = {
   travels: travels[]
@@ -7,10 +8,8 @@ type props = {
 
 const Grid = ({travels} : props) => {
   return (
-   <section>
-    {travels.map((travel) => <Card key={travel.id} travel={travel} />
-     
-    )}
+   <section className={styles.grid}>
+    {travels.map((travel) => <Card key={travel.id} travel={travel} />)}
    </section>
   )
 }
