@@ -23,6 +23,12 @@ export default function SobrePage() {
           <p>
             Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
             descobrir os destinos mais incríveis ao redor do mundo.
+             Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
+            descobrir os destinos mais incríveis ao redor do mundo.
+             Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
+            descobrir os destinos mais incríveis ao redor do mundo.
+             Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
+            descobrir os destinos mais incríveis ao redor do mundo.
           </p>
           
           <h3>✨ Nossa Visão</h3>

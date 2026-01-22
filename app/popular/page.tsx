@@ -10,7 +10,14 @@ export default function PopularPage() {
     <div className={styles.popularPage}>
       <div className={styles.pageHeader}>
         <h1>🔥 Destinos Mais Populares</h1>
-        <p>Os destinos favoritos dos nossos viajantes</p>
+        <p>Os destinos favoritos dos nossos viajantes
+          ao redor do mundo.
+           Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
+            descobrir os destinos mais incríveis ao redor do mundo.
+             Bem-vindo ao nosso site de viagens! Somos apaixonados por ajudar você a 
+            descobrir os destinos mais incríveis ao redor do mundo.
+
+        </p>
         <div className={styles.badge}>⭐ Top 6 Escolhas</div>
       </div>
       <div className={styles.content}>

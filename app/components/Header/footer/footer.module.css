@@ -107,6 +107,44 @@
     
     .section:first-child {
         grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 2rem 1rem 1rem;
+    }
+    
+    .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .section h3 {
+        font-size: 1.3rem;
+    }
+    
+    .section h4 {
+        font-size: 1rem;
+    }
+    
+    .socialLinks {
+        justify-content: center;
+    }
+    
+    .copyright p {
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 968px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .section:first-child {
+        grid-column: 1 / -1;
         text-align: center;
     }
 }

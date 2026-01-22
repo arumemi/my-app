@@ -1,3 +1,10 @@
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
 .card {
     border: 1px solid #e0e0e0;
     border-radius: 1rem;
@@ -7,6 +14,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .card:hover {
@@ -55,7 +63,21 @@
     flex: 1;
 }
 
+@media (max-width: 768px) {
+    .card:hover {
+        transform: translateY(-4px);
+    }
+    
+    .imageWrapper {
+        height: 220px;
+    }
+}
+
 @media (max-width: 576px) {
+    .card:active {
+        transform: scale(0.98);
+    }
+    
     .imageWrapper {
         height: 200px;
     }
@@ -70,5 +92,6 @@
     
     .content p {
         font-size: 0.9rem;
+        line-height: 1.5;
     }
 }
