@@ -8,7 +8,7 @@ export default function Home() {
    <div className={styles.homePage}>
      <div className={styles.hero}>
        <h1>Explore o Mundo Conosco</h1>
-       <p>Descubra destinos incríveis e crie memórias inesquecíveis</p>
+       <p>Descubra destinos incríveis e crie memórias inesquecíveis .</p>
      </div>
      
      <div className={styles.section}>
